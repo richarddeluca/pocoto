@@ -36,3 +36,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+@media (min-width: 640px) {
+  html,
+  body {
+    height: auto;
+    background-size: auto;
+  }
+}

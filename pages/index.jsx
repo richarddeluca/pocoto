@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Banner title1='Batata' title2='assada' textButton='clica não' text='sua batata está assando'/>        
+        <Banner title1='Batata' title2='assada' textButton='clica não!' text='sua batata está assando'/>        
       </main>
       <div className={styles.cards}>
         <Card href='./dinamic/Pimentel' text1='Pimentel foi à feira,' text2='não tinha o que comprar' name='Card 1'/>
