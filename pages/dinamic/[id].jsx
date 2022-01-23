@@ -17,7 +17,7 @@ const Dinamic = () => {
       </Head>
 
       <main className={styles.main}>
-        <Banner title1={router} title2='com queijo' textButton='bom dia' text={textFrase}/>
+        <Banner title1={router} title2='com queijo' textButton='voltarzar' text={textFrase}/>
       </main>
     </div>
   )

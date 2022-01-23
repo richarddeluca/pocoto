@@ -14,10 +14,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <Banner title1='Batata' title2='assada' textButton='clica não' text='sua batata está assando'/>        <Card alt='card' imgUrl='/static/back.png' href='dinamic/macarrão' name='macarrão'>
-          vocês são legais
-        </Card>
+        <Banner title1='Batata' title2='assada' textButton='clica não' text='sua batata está assando'/>        
       </main>
+      <div className={styles.cards}>
+        <Card href='./dinamic/Pimentel' text1='Pimentel foi à feira,' text2='não tinha o que comprar' name='Card 1'/>
+        <Card href='./dinamic/Dudu' text1='Comprou uma cadeira' text2='pro Dudu se sentar' name='Card 2'/>
+      </div>
     </div>
   )
 }
