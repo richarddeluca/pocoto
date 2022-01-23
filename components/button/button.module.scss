@@ -1,0 +1,23 @@
+.burronWrapper {
+  margin-top: 1.25rem;
+}
+
+.button {
+  background-color: var(--button-color);
+  cursor: pointer;
+  color: white;
+  outline: 0;
+  border: 0px;
+  border-radius: 10%;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: var(--text-purple-dark);
+}

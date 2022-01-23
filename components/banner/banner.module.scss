@@ -1,0 +1,85 @@
+// by default, this is a mobile breakpoint
+
+.container {
+  margin-bottom: 6rem;
+}
+
+.title {
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  color: var(--text-black);
+
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.title1 {
+  color: rgba(249, 250, 251, 1);
+
+  text-shadow: 2px 2px 9px rgba(255, 0, 98, 1);
+}
+
+.title2 {
+  // display: block;
+  color: var(--text-purple);
+  text-shadow: 2px 2px 6px rgb(247, 8, 247, 0.6);
+}
+
+.subTitle {
+  margin: 0.75rem 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  color: var(--text-100);
+
+  text-shadow: 2px 2px 9px rgba(255, 0, 98, 0.5);
+}
+
+// small device
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .subTitle {
+    margin-top: 1.25rem;
+    max-width: 36rem;
+  }
+
+  .buttonWrapper {
+    display: flex;
+    margin-top: 2rem;
+  }
+}
+
+// medium device
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .subTitle {
+    margin-top: 1.25rem;
+    max-width: 36rem;
+  }
+
+  .buttonWrapper {
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+// large dfevice
+@media (min-width: 1024px) {
+  .containter {
+    color: rgba(255, 0, 98, 0.5);
+  }
+}
+
+// extra large
+// super extra large
