@@ -3,7 +3,7 @@
   {
     "id": 0,
     "name": "Pimintel di Miskitty",
-    "imgUrl": "/static/Mateus representado.jpg",
+    "imgUrl": "https://raw.githubusercontent.com/richarddeluca/site-rpg/main/public/static/Mateus%20representado.jpg",
     "websiteUrl": "https://www.strangelovecoffee.ca/",
     "address": "983 Queen St E, Toronto, ON M4M 1K2",
     "neighbourhood": "at King and Spadina"
@@ -11,7 +11,7 @@
   {
     "id": 1,
     "name": "Orion Librianus Cabral",
-    "imgUrl": "/static/Luis representado.jpeg",
+    "imgUrl": "https://raw.githubusercontent.com/richarddeluca/site-rpg/main/public/static/Luis%20representado.jpeg",
     "websiteUrl": "https://www.darkhorseespresso.com/",
     "address": "401 Richmond St W",
     "neighbourhood": "Richmond and Spadina"
@@ -19,7 +19,7 @@
   {
     "id": 300,
     "name": "hauhsuahsuhahsahauhsuahsuhahsahauhsuahsu",
-    "imgUrl": "/static/Pimentel representado.webp",
+    "imgUrl": "https://raw.githubusercontent.com/richarddeluca/site-rpg/main/public/static/Pimentel%20representado.webp",
     "websiteUrl": "https://www.darkhorseespresso.com/",
     "address": "401 Richmond St W",
     "neighbourhood": "Route 300 Neighbourhood"
