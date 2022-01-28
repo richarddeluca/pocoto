@@ -33,7 +33,7 @@ export default function Home(props) {
         <Banner title1={title1} title2={title2} textButton='clica não!' text={props.coffeeData.texts.subtitle}/>        
         {props.coffeeData.personas.length > 0 && (
           <>
-            <h2>showcase</h2>
+            <h2>Showcase</h2>
             <div className={styles.showcase}>
               {props.coffeeData.personas.map((coff) => {
                 return (
