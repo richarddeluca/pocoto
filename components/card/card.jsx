@@ -1,24 +1,30 @@
-import { loadGetInitialProps } from "next/dist/shared/lib/utils"
-import Link from 'next/link'
-import Image from 'next/image'
-import styles from './card.module.scss'
+import Link from "next/link";
+import Image from "next/image";
+import cls from "classnames";
 
-import Glass from "../glass/glass"
+import styles from "./card.module.scss";
 
 const Card = (props) => {
   return (
-    <Glass>
-      <Link href={props.href}>
-        <a className={styles.container}>
-          <h2>{props.name}</h2>
-          <p>{props.text1}</p>
-          <p>{props.text2}</p>
-          {/* <Image alt={props.alt} src={props.imgUrl} width={260} height={160}></Image> */}
-        </a>
-      </Link>
-      
-    </Glass>
-  )
-}
+    <Link href={props.href}>
+      <a className={styles.cardLink}>
+        <div className={cls("glass", styles.container)}>
+          <div className={styles.cardHeaderWrapper}>
+            <h2 className={styles.cardHeader}>{props.name}</h2>
+          </div>
+          <div className={styles.cardImageWrapper}>
+            <Image
+              alt={props.name}
+              className={styles.cardImage}
+              src={props.imgUrl}
+              width={260}
+              height={160}
+            />
+          </div>
+        </div>
+      </a>
+    </Link>
+  );
+};
 
-export default Card
+export default Card;

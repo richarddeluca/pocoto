@@ -1,5 +1,9 @@
 import Head from "next/head"
+import Link from 'next/link'
+
 import Banner from '../../components/banner/banner.jsx'
+
+
 import styles from '../../styles/Home.module.scss'
 
 
@@ -17,6 +21,9 @@ const Dinamic = () => {
       </Head>
 
       <main className={styles.main}>
+        <Link href='/'> 
+        <a>back to home</a>
+        </Link>
         <Banner title1={router} title2='com queijo' textButton='voltarzar' text={textFrase}/>
       </main>
     </div>

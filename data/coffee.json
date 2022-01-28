@@ -1,0 +1,41 @@
+{
+  "personas": [
+  {
+    "id": 0,
+    "name": "Pimintel di Minskitty",
+    "imgUrl": "/static/Mateus representado.jpg",
+    "websiteUrl": "https://www.strangelovecoffee.ca/",
+    "address": "983 Queen St E, Toronto, ON M4M 1K2",
+    "neighbourhood": "at King and Spadina"
+  },
+  {
+    "id": 1,
+    "name": "Orion Librianus Cabral",
+    "imgUrl": "/static/Luis representado.jpeg",
+    "websiteUrl": "https://www.darkhorseespresso.com/",
+    "address": "401 Richmond St W",
+    "neighbourhood": "Richmond and Spadina"
+  },
+  {
+    "id": 300,
+    "name": "hauhsuahsuhahsahauhsuahsuhahsahauhsuahsu",
+    "imgUrl": "/static/Pimentel representado.webp",
+    "websiteUrl": "https://www.darkhorseespresso.com/",
+    "address": "401 Richmond St W",
+    "neighbourhood": "Route 300 Neighbourhood"
+  },
+  {
+    "id": 3020,
+    "name": "Imagem bonita",
+    "imgUrl": "https://images.unsplash.com/photo-1642372131494-57f05b082843?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=160&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MzMzNzU5Mw&ixlib=rb-1.2.1&q=80&w=260",
+    "websiteUrl": "https://www.darkhorseespresso.com/",
+    "address": "401 Richmond St W",
+    "neighbourhood": "Route 300 Neighbourhood"
+  }
+],
+
+  "texts": {
+    "title": "Richard-Deluca",
+    "subtitle": "Mundos, narrativas e personagens dos jogos RPG que participei na UnB"
+  }
+}

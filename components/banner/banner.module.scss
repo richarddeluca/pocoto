@@ -1,7 +1,7 @@
 // by default, this is a mobile breakpoint
 
 .container {
-  margin: 3rem 0;
+  margin: 3rem 0 1rem;
 }
 
 .title {
@@ -43,9 +43,9 @@
     line-height: 1;
   }
 
-  .title2 {
-    display: block;
-  }
+  // .title2 {
+  //   display: block;
+  // }
 
   .subTitle {
     margin-top: 1.25rem;
@@ -66,9 +66,9 @@
     line-height: 1;
   }
 
-  .title2 {
-    display: inline;
-  }
+  // .title2 {
+  //   display: inline;
+  // }
 
   .subTitle {
     margin-top: 1.25rem;

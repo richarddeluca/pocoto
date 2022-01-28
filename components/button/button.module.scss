@@ -1,7 +1,3 @@
-.burronWrapper {
-  margin-top: 1.25rem;
-}
-
 .button {
   background-color: var(--button-color);
   cursor: pointer;
@@ -17,6 +13,19 @@
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   transition: 0.3s;
+
+  background: rgba(0, 255, 221, 0.027);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  width: 15rem;
+  height: 9rem;
+
+  margin: 2rem 2rem 0 0;
+  color: rgb(255, 255, 255);
 }
 .button:hover {
   background-color: var(--text-purple-dark);
